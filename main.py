@@ -1,7 +1,7 @@
 import datetime
 
 # get the dates from the user
-print("**The format of the date YYYY-MM-DD")
+print("**Welcome To The app")
 date1 = input("Enter the First date: ")
 date2 = input("Enter the Second date: ")
 # change the dates to be a date object
