@@ -11,3 +11,4 @@ date2_as_datetime = datetime.datetime(year=int(date2[0:4]), month=int(date2[5:7]
 time_difference = date1_as_datetime - date2_as_datetime
 days = int(str(time_difference).split()[0])
 print(int(math.fabs(days * 24)))
+# finished with all the git hub tutorials
