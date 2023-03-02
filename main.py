@@ -1,5 +1,5 @@
 import datetime
-
+import math
 # get the dates from the user
 print("**Welcome To The app")
 date1 = input("Enter the First date: ")
@@ -9,4 +9,5 @@ date1_as_datetime = datetime.datetime(year=int(date1[0:4]), month=int(date1[5:7]
 date2_as_datetime = datetime.datetime(year=int(date2[0:4]), month=int(date2[5:7]), day=int(date2[8:]))
 # getting the time difference
 time_difference = date1_as_datetime - date2_as_datetime
-print(time_difference)
+days = int(str(time_difference).split()[0])
+print(int(math.fabs(days * 24)))
